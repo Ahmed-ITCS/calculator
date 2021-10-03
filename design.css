@@ -1,0 +1,26 @@
+.calculator {
+  text-align: center;
+  background-color: black;
+}
+.text{
+	color: green;
+}
+input{
+	color: blue;
+	width: 250px
+}
+.eq{
+	margin : auto;
+	
+}
+button{
+	width: 60px;
+    height: 40px;
+    color: green;
+}
+table{
+	margin:auto;
+}
+.space{
+	background-color: black;
+}
