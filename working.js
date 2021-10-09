@@ -3,6 +3,7 @@ let screen = document.getElementById('screen');
 let buttons = document.querySelectorAll('button');
 let screenvalue = "";
 for(let item of buttons){
+	screenvalue="";
 	item.addEventListener('click' , (e)=>{
 		let buttonText = e.target.innerText;
 		if (buttonText=='*') {
