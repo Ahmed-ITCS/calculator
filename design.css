@@ -1,64 +1,67 @@
 /* Container for the entire calculator */
 .calculator {
   text-align: center;
-  background-color: #2e2e2e; /* Darker background for better contrast */
-  border-radius: 10px; /* Rounded corners */
-  padding: 20px; /* Spacing around the edges */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
-  width: 300px; /* Fixed width for better layout control */
-  margin: auto; /* Centering the calculator */
+  background-color: #f5f5f5; /* Light gray background for a clean look */
+  border-radius: 15px; /* More pronounced rounded corners */
+  padding: 20px; /* Adequate spacing inside the container */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow for depth */
+  width: 320px; /* Slightly wider for better button layout */
+  margin: auto; /* Center the calculator horizontally */
+  font-family: 'Arial', sans-serif; /* Clean, modern font */
 }
 
 /* Style for the text within the calculator */
 .text {
-  color: #00ff00; /* Bright green text for visibility */
-  font-size: 1.2em; /* Larger font size for readability */
-  margin-bottom: 10px; /* Space below the text */
+  color: #333333; /* Darker gray text for good readability */
+  font-size: 1.5em; /* Larger font size for the display */
+  margin-bottom: 15px; /* Spacing below the text */
 }
 
 /* Style for the input field */
 input {
-  color: #ffffff; /* White text for better contrast */
-  background-color: #333333; /* Dark background for the input field */
-  border: 1px solid #444444; /* Subtle border */
-  width: 100%; /* Full width within the container */
-  padding: 10px; /* Padding inside the input field */
-  border-radius: 5px; /* Rounded corners for the input field */
-  box-sizing: border-box; /* Include padding in the element's total width and height */
-  font-size: 1.1em; /* Slightly larger text for better readability */
+  color: #333333; /* Dark text for input */
+  background-color: #ffffff; /* White background for input */
+  border: 2px solid #cccccc; /* Soft border color */
+  width: 100%; /* Full width of the container */
+  padding: 15px; /* Comfortable padding inside the input */
+  border-radius: 10px; /* Rounded corners for input */
+  box-sizing: border-box; /* Ensure padding is included in width */
+  font-size: 1.2em; /* Slightly larger text for readability */
+  margin-bottom: 15px; /* Space below the input field */
 }
 
 /* Style for the equals button */
 .eq {
-  margin: 10px auto; /* Centered with some space around */
+  margin: 20px auto; /* Centered with more space around */
 }
 
 /* Style for buttons */
 button {
-  width: 50px; /* Adjusted width for a more compact look */
-  height: 50px; /* Increased height for better usability */
+  width: 60px; /* Consistent button width */
+  height: 60px; /* Increased height for ease of use */
   color: #ffffff; /* White text color */
-  background-color: #007bff; /* Bright blue background for buttons */
-  border: none; /* No border */
-  border-radius: 5px; /* Rounded corners */
+  background-color: #007bff; /* Bright blue background */
+  border: none; /* No border for a clean look */
+  border-radius: 10px; /* Rounded corners for buttons */
   margin: 5px; /* Small margin around buttons */
-  font-size: 1.2em; /* Larger font size for better readability */
+  font-size: 1.3em; /* Larger font size for better visibility */
   cursor: pointer; /* Pointer cursor on hover */
-  transition: background-color 0.3s; /* Smooth background color transition */
+  transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
 }
 
 button:hover {
   background-color: #0056b3; /* Darker blue on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
 }
 
 /* Style for the table to align buttons */
 table {
   margin: auto; /* Centered within the container */
-  border-spacing: 5px; /* Space between buttons */
+  border-spacing: 10px; /* Adequate spacing between buttons */
 }
 
 /* Style for empty space or separators */
 .space {
-  background-color: transparent; /* Transparent background for spacing */
+  background-color: transparent; /* Transparent for spacing */
   border: none; /* No border */
 }
