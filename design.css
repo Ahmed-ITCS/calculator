@@ -1,26 +1,64 @@
+/* Container for the entire calculator */
 .calculator {
   text-align: center;
-  background-color: black;
+  background-color: #2e2e2e; /* Darker background for better contrast */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Spacing around the edges */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+  width: 300px; /* Fixed width for better layout control */
+  margin: auto; /* Centering the calculator */
 }
-.text{
-	color: green;
+
+/* Style for the text within the calculator */
+.text {
+  color: #00ff00; /* Bright green text for visibility */
+  font-size: 1.2em; /* Larger font size for readability */
+  margin-bottom: 10px; /* Space below the text */
 }
-input{
-	color: blue;
-	width: 250px
+
+/* Style for the input field */
+input {
+  color: #ffffff; /* White text for better contrast */
+  background-color: #333333; /* Dark background for the input field */
+  border: 1px solid #444444; /* Subtle border */
+  width: 100%; /* Full width within the container */
+  padding: 10px; /* Padding inside the input field */
+  border-radius: 5px; /* Rounded corners for the input field */
+  box-sizing: border-box; /* Include padding in the element's total width and height */
+  font-size: 1.1em; /* Slightly larger text for better readability */
 }
-.eq{
-	margin : auto;
-	
+
+/* Style for the equals button */
+.eq {
+  margin: 10px auto; /* Centered with some space around */
 }
-button{
-	width: 60px;
-    height: 40px;
-    color: green;
+
+/* Style for buttons */
+button {
+  width: 50px; /* Adjusted width for a more compact look */
+  height: 50px; /* Increased height for better usability */
+  color: #ffffff; /* White text color */
+  background-color: #007bff; /* Bright blue background for buttons */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  margin: 5px; /* Small margin around buttons */
+  font-size: 1.2em; /* Larger font size for better readability */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth background color transition */
 }
-table{
-	margin:auto;
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
 }
-.space{
-	background-color: black;
+
+/* Style for the table to align buttons */
+table {
+  margin: auto; /* Centered within the container */
+  border-spacing: 5px; /* Space between buttons */
+}
+
+/* Style for empty space or separators */
+.space {
+  background-color: transparent; /* Transparent background for spacing */
+  border: none; /* No border */
 }
